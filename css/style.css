@@ -1,3 +1,108 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#teste {
+    color: red;
+}
+
+.nav-link:hover {
+    color: red;
+}
+#carouselExampleDark{
+    width: 600px;
+    margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+#cropped {
+    width: 600px; /* width of container */
+    height: 350px; /* height of container */
+    object-fit: cover;
+    object-position:center;
+    
+}
+
+main {
+
+ background-color: black;;
+  margin: 20px 0;
+  padding: 10px;
+    
+}
+.texto {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: red;
+
+}
+.btn-center {
+  padding: 0%;
+  margin: 0%;
+}
+
+.btn-center {
+  margin-top: 20px;
+}
+.logo {
+  width:50px;
+
+}
+
+.container {
+   width: 1000px;
+   margin: 20px auto;
+   text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & &-card {
+      width: 24%;
+      margin: 3px;
+      box-shadow: 0 0 10px #ccc;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    & &-img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+}
+
+.flex-card {
+    padding: 10px;
+    background-color: black;
+    
+}
 
 
-/*# sourceMappingURL=style.css.map */
+.btn {
+  text-decoration: none;
+  background: #eb0707 ;
+  color: #7b0303;
+  padding: 10px;
+  border-radius: 5px;
+  &:houver {
+  background-color: #7b0303;  
+  }
+}
+
+p {
+  margin: 15px;
+  line-height: 30px;
+ font-size: 20px;
+}
+#titulo {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
