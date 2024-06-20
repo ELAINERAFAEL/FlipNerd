@@ -9,28 +9,35 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-    <a class="navbar-brand" href="jogo/walka"><img src="./imagens/eu.png" id="cropped" class="d-block w-100" alt="..."></a>
+    <a class="navbar-brand" href="walka"><img src="./imagens/eu.png" id="cropped" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label kkk</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Clique aqui para saber mais</h5>
+        <p>Fique por dentro de nossas novidades!</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <a class="navbar-brand" href="jogo/walka"><img src="./imagens/jogo.png" id="cropped" class="d-block w-100" alt="...">
+      <a class="navbar-brand" href="ninjaa"><img src="./imagens/jogo.png" id="cropped" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-    <a class="navbar-brand" href="jogo/naosei"><img src="./imagens/não sei.png" id="cropped" class="d-block w-100" alt="..."></a>
+    <a class="navbar-brand" href="naosei"><img src="./imagens/não sei.png" id="cropped" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-    <a class="navbar-brand" href="jogo/vanderleia"><img src="./imagens/vand.png" id="cropped" class="d-block w-100" alt="..."></a> 
+    <a class="navbar-brand" href="vanderleia"><img src="./imagens/vand.png" id="cropped" class="d-block w-100" alt="..."></a> 
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <a class="navbar-brand" href="certovander"><img src="./imagens/vanderliaa.jpeg" id="cropped" class="d-block w-100" alt="..."></a> 
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
@@ -47,3 +54,72 @@
   </button>
   
 </div>
+
+<!-- começo dos cards -->
+<main class="container">
+  <h1>Disponíveis</h1>
+  <div class="flex">
+    
+
+    <?php 
+    
+    $dadosApi = file_get_contents("http://localhost/projeto-walka/api/jogos.php");
+    $dadosApi = json_decode($dadosApi);
+    
+    foreach ($dadosApi as $dados) {
+      ?>
+
+
+
+<div class="flex-card">
+      <img src="<?= $dados->banner ?>" alt="<?= $dados->nome ?>" class="flex-img" id="pad">
+      <p>
+        <strong><?= $dados->nome ?></strong>
+      </p>
+      <p>
+          <a href="<?= $dados->jogar ?>" target="_blank" title="Detalhes"class="btn">
+            Detalhes
+          </a>
+      </p>
+    </div>
+
+      <?php
+    }
+    
+    ?>
+  </div><!-- fim dos cards -->
+
+  <h1>Embreve</h1>
+  <div class="flex">
+    
+
+    <?php 
+
+    $dadosApi = file_get_contents("http://localhost/projeto-walka/api/embreve.php");
+    $dadosApi = json_decode($dadosApi);
+    
+    foreach ($dadosApi as $dados) {
+      ?>
+
+
+
+<div class="flex-card">
+      <img src="<?= $dados->banner ?>" alt="<?= $dados->nome ?>" class="flex-img" id="pad">
+      <p>
+        <strong><?= $dados->nome ?></strong>
+      </p>
+      <p>
+          <a href="<?= $dados->jogar ?>" target="_blank" title="Detalhes"class="btn">
+            Detalhes
+          </a>
+      </p>
+    </div>
+
+      <?php
+    }
+    
+    ?>
+  </div>
+  
+  
+</main>

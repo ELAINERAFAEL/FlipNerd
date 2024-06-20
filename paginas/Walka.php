@@ -1,21 +1,17 @@
-<div class="container text-center">
-  <div class="row">
+<div class="row">
     <div class="col">
-    <img src="imagens/eu.png" class="img-fluid" alt="...">
+    <img src="./imagens/eu.png" class="img-fluid" alt="...">
     </div>
     <div class="col">
-    <img src="imagens/vand.png" class="img-fluid" alt="...">
+      <h1 class="texto">Walka</h1>
+      <h4><strong>Descrição: </strong> O jogo Walka tem como foco derrotar seu inimigo, que está andando de um lado para o outro, os jogadores tem a oportunidade de enfrentar o inimigo e derrotá-lo
+    com sua arma , o inimigo pode proporcionar ao jogadores uma sensação de realização. </h4>
+      <h4><strong>Criador: </strong>Criado por uma estudante de TDS do primeiro semestre, o projeto visa mostrar o que vem sendo trabalhado na sala Mostrando como a aluna e os demais colegas estão se desenvolvendo e dando seus primeiros passos no mundo da programação e da criação de softwares</h4>
+      <h4><strong>Público alvo: </strong> O público alvo principal são os entusiastas de jogos de ação, que buscam experiências empolgantes e dinâmicas envolvendo o combate, o jogo atrai jogadores que gostam de competir testando suas habilidades estratégicas em confrontos diretos</h2>
     </div>
+  </div> 
+  <div class="container text-center">
+    <button class="btn-center">
+    <a href="./game/index.html" class="btn btn-primary">JOGAR</a>
+  </button>
   </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      2 of 3
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-</div>

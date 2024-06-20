@@ -15,7 +15,7 @@
 
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="menu" class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="Walka"><img src="imagens/valknut_2845492.png" class="logo" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Home">Home</a>
+              <a class="nav-link" aria-current="page" href="Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Construct">Quem somos</a>
+              <a class="nav-link" aria-current="page" href="quemsomos">Quem somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contato">Contato</a>
@@ -68,128 +68,15 @@ if (file_exists($pagina)){
 ?>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<main class="container">
-  <h1>Embreve</h1>
-  <div class="flex">
-    <div class="flex-card">
-      <img src="imagens/vav.png" alt="valorant 1" class="flex-img" id="pad">
-      <p>
-        <strong> valorant</strong>
-      </p>
-      <p>
-          <a href="https://playvalorant.com/en-us/?gad_source=1&gclid=EAIaIQobChMIgr6tgcLehgMVahatBh1WDgm1EAAYASAAEgJ-AvD_BwE&gclsrc=aw.ds" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-
-    <div class="flex-card">
-      <img src="imagens/tekken.certo.jpg" alt="Tekken" class="flex-img" id="pad">
-      <p>
-        <strong> Tekken</strong>
-      </p>
-      <p>
-          <a href="https://store.steampowered.com/app/1778820/TEKKEN_8/" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-
-    <div class="flex-card">
-      <img src="imagens/roblox certo.png" alt="roblox" class="flex-img" id="pad">
-      <p>
-        <strong>Roblox</strong>
-      </p>
-      <p>
-          <a href="https://x.com/roblox" target="blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-
-       <div class="flex">
-    <div class="flex-card">
-      <img src="imagens/grand theft.jpg" alt="grand theft" class="flex-img" id="pad">
-      <p>
-        <strong>Grand theft</strong>
-      </p>
-      <p>
-          <a href="https://www.rockstargames.com/br/gta-v" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-
-    
-    <div class="flex-card">
-      <img src="imagens/league.png" alt="league" class="flex-img" id="pad">
-      <p>
-        <strong>League</strong>
-      </p>
-      <p>
-          <a href="detalhes.html" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-
-    <div class="flex-card">
-      <img src="imagens/cooking simulator.png" alt="coking" class="flex-img" id="pad">
-      <p>
-        <strong>coking</strong>
-      </p>
-      <p>
-          <a href="https://www.leagueoflegends.com/pt-br/" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-
-    <div class="flex-card">
-      <img src="imagens/pokemon.png" alt="pokemon" class="flex-img" id="pad">
-      <p>
-        <strong>pokemon</strong>
-      </p>
-      <p>
-          <a href="https://www.pokemon.com/br" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-        
-    <div class="flex-card">
-      <img src="imagens/fifa.24.png" alt="fifa" class="flex-img" id="pad">
-      <p>
-        <strong>Fifa</strong>
-      </p>
-      <p>
-          <a href="https://www.ea.com/pt-br/games/fifa" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-    
-    <div class="flex-card">
-      <img src="imagens/mani.png" alt="manicraft" class="flex-img" id="pad">
-      <p>
-        <strong>Manicraft</strong>
-      </p>
-      <p>
-          <a href="https://classic.minecraft.net/?join=DBql8Z8y1H5GuYVU" target="_blank" title="Detalhes"class="btn">
-            Detalhes
-          </a>
-      </p>
-    </div>
-  </div>
-
-  
-  <footer class="footer">
+<footer class="footer">
   <p>desenvolvido por</p>
   </footer>
-</main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
