@@ -24,13 +24,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="Home">Home</a>
+              <a class="nav-link" aria-current="page" href="Home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="quemsomos">Quem somos</a>
+              <a class="nav-link" aria-current="page" href="quemsomos">QUEM SOMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contato">Contato</a>
+              <a class="nav-link" href="contato">CONTATO</a>
             </li>
             
           </ul>
@@ -71,7 +71,7 @@ if (file_exists($pagina)){
 
 
 <footer class="footer">
-  <p>desenvolvido por</p>
+  <p>Desenvolvido por Elaine Rafael</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

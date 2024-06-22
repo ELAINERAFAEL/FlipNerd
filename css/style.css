@@ -119,10 +119,6 @@ p {
   background-image: url('../imagens/fundo.png');
 }
 
-div {
-  text-align: center;
-  width: 100%;
-}
 
 form {
   display: block;
@@ -170,10 +166,6 @@ button {
   padding: 5px;
 }
 
-button:hover{
-  background-color: rgb(255, 21, 0);
-  color: white;
-}
 
 .for {
   margin: 15px;

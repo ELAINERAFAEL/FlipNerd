@@ -22,8 +22,8 @@
         <strong><?= $dados->nome ?></strong>
       </p>
       <p>
-          <a href="<?= $dados->jogar ?>" target="_blank" title="Detalhes"class="btn">
-            Detalhes
+          <a href="<?= $dados->jogar ?>" target="_blank" title="Conheça o jogo"class="btn">
+            Conheça o jogo
           </a>
       </p>
     </div>
