@@ -33,7 +33,7 @@ $jogo[3] = array (
 "banner" =>"{$path}imagens/gta.png",
 "banner2" =>"{$path}imagens/não sei.png",
 "alt" => "nao sei",
-"nome"=>"jogo walka",
+"nome"=>"GRAND THEFT",
 "descricao"=>"ola",
 "jogar" => "https://www.rockstargames.com/br/gta-v",
 );
