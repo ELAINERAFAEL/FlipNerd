@@ -8,7 +8,6 @@
 
     <?php 
     
-    $dadosApi = file_get_contents("http://localhost/projeto-walka/api/quemsomos.php");
     $dadosApi = json_decode($dadosApi);
     
     foreach ($dadosApi as $dados) {

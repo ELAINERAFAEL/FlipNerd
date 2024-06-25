@@ -3,7 +3,6 @@
 header("Access-Controla-Allow-Origin: *");
 header("content-tipe: application/json; charset=utf-8");
 
-$path = "http://localhost/projeto-walka/";
 
 $jogo[1] = array (
     "id" => 1,
