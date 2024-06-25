@@ -67,6 +67,7 @@
 
     <?php 
     
+    $dadosApi = file_get_contents("http://localhost/projeto-walka/API/jogos.php");
     $dadosApi = json_decode($dadosApi);
     
     foreach ($dadosApi as $dados) {
@@ -98,6 +99,7 @@
 
     <?php 
 
+    $dadosApi = file_get_contents("http://localhost/projeto-walka//API/embreve.php");
     $dadosApi = json_decode($dadosApi);
     
     foreach ($dadosApi as $dados) {
