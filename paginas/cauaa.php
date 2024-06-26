@@ -10,6 +10,6 @@
   </div> 
   <div class="container text-center">
     <button class="btn-center">
-    <a href="./caua/Novo projeto" class="btn btn-primary">JOGAR</a>
+    <a href="./war" class="btn btn-primary">JOGAR</a>
   </button>
   </div>
